@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>Employee Data</h2>
+Name: <input type="text" id="name"><br/><br/>
+Max Salary: <input type="number" id="maxSalary"><br/><br/>
+Min Salary: <input type="number" id="minSalary"><br/><br/>
+Tax: <input type="number" id="tax" value="4" disabled="true"><br/><br/>
+
+<button id="addRow">Add</button><br/><br/>
+
+
+<table id="EmployeeTable" style="width:100%">
+  <tr>
+    <th>Employee Name</th>
+    <th>Min-Salary</th>
+    <th>Max-Salary</th>
+    <th>Tax to Pay</th>
+    
+    
+    
+  </tr>
+  
+</table>
+<script src="employeeData.js"></script>
+</body>
+</html>
