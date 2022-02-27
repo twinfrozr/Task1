@@ -78,8 +78,3 @@ function remRow(x) {
   table.deleteRow(x.parentNode.parentNode.rowIndex); 
 
 }
-
-function editRow(x){
-  console.log(x.parentNode.parentNode);
-
-}
